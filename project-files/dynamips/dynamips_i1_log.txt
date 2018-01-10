@@ -1,0 +1,24 @@
+Jan 09 23:23:21.642 HYPERVISOR: Release 0.2.17-amd64/Linux (tag 2017072410)
+Jan 09 23:23:21.643 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36991.
+Jan 09 23:23:21.645 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 23:23:21.645 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ennuikibun/GNS3/projects/Redes/project-files/dynamips 
+Jan 09 23:23:21.645 GENERAL: working_dir=/home/ennuikibun/GNS3/projects/Redes/project-files/dynamips
+Jan 09 23:23:21.645 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ennuikibun/GNS3/projects/Redes/project-files/dynamips/957deb80-7089-41ec-a3e2-506f4e0b56d8 
+Jan 09 23:23:21.645 GENERAL: working_dir=/home/ennuikibun/GNS3/projects/Redes/project-files/dynamips/957deb80-7089-41ec-a3e2-506f4e0b56d8
+Jan 09 23:23:21.646 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Jan 09 23:23:21.662 VM: VM R2 created.
+Jan 09 23:23:21.662 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+Jan 09 23:23:21.662 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Jan 09 23:23:21.669 HYPERVISOR: exec_cmd: vm set_ios R2 /home/ennuikibun/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 09 23:23:21.669 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Jan 09 23:23:21.670 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jan 09 23:23:21.670 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.68ba.0000 
+Jan 09 23:23:21.670 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 09 23:23:21.671 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60c09aa0 
+Jan 09 23:23:21.671 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jan 09 23:23:22.010 HYPERVISOR: exec_cmd: nio create_udp udp-2f67483d-09ab-4d16-92f5-06af2bafae6d 10008 127.0.0.1 10009 
+Jan 09 23:23:22.032 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2f67483d-09ab-4d16-92f5-06af2bafae6d 
+Jan 09 23:23:22.032 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 09 23:23:22.233 HYPERVISOR: exec_cmd: nio create_udp udp-9a06bc0f-d142-4575-a2b9-11de10e51577 10020 127.0.0.1 10021 
+Jan 09 23:23:22.234 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-9a06bc0f-d142-4575-a2b9-11de10e51577 
+Jan 09 23:23:22.234 HYPERVISOR: exec_cmd: vm get_status R2 

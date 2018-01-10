@@ -1,0 +1,12 @@
+Jan 09 23:23:21.761 HYPERVISOR: Release 0.2.17-amd64/Linux (tag 2017072410)
+Jan 09 23:23:21.761 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34344.
+Jan 09 23:23:21.772 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 23:23:21.772 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ennuikibun/GNS3/projects/Redes/project-files/dynamips 
+Jan 09 23:23:21.772 GENERAL: working_dir=/home/ennuikibun/GNS3/projects/Redes/project-files/dynamips
+Jan 09 23:23:21.772 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Jan 09 23:23:22.069 HYPERVISOR: exec_cmd: nio create_udp udp-542c26d1-4a75-46c0-84ce-dd0cdd6713d1 10010 127.0.0.1 10011 
+Jan 09 23:23:22.069 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-542c26d1-4a75-46c0-84ce-dd0cdd6713d1 
+Jan 09 23:23:22.137 HYPERVISOR: exec_cmd: nio create_udp udp-37ec65ae-d83b-4d7c-8b70-047f728e88af 10013 127.0.0.1 10012 
+Jan 09 23:23:22.137 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-37ec65ae-d83b-4d7c-8b70-047f728e88af 
+Jan 09 23:23:22.180 HYPERVISOR: exec_cmd: nio create_udp udp-706e8aae-0c72-456e-9cfc-032d007148a7 10016 127.0.0.1 10017 
+Jan 09 23:23:22.180 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-706e8aae-0c72-456e-9cfc-032d007148a7 

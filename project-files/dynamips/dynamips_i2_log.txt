@@ -1,0 +1,23 @@
+Jan 09 23:23:21.691 HYPERVISOR: Release 0.2.17-amd64/Linux (tag 2017072410)
+Jan 09 23:23:21.691 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49512.
+Jan 09 23:23:21.701 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 23:23:21.702 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ennuikibun/GNS3/projects/Redes/project-files/dynamips 
+Jan 09 23:23:21.702 GENERAL: working_dir=/home/ennuikibun/GNS3/projects/Redes/project-files/dynamips
+Jan 09 23:23:21.702 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ennuikibun/GNS3/projects/Redes/project-files/dynamips/b98c40bc-4be4-46eb-b30d-a96b7553172e 
+Jan 09 23:23:21.702 GENERAL: working_dir=/home/ennuikibun/GNS3/projects/Redes/project-files/dynamips/b98c40bc-4be4-46eb-b30d-a96b7553172e
+Jan 09 23:23:21.702 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Jan 09 23:23:21.713 VM: VM R1 created.
+Jan 09 23:23:21.713 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5005 
+Jan 09 23:23:21.714 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jan 09 23:23:21.714 HYPERVISOR: exec_cmd: vm set_ios R1 /home/ennuikibun/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jan 09 23:23:21.715 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jan 09 23:23:21.715 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.7265.0000 
+Jan 09 23:23:21.715 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 23:23:21.716 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c09aa0 
+Jan 09 23:23:21.716 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 09 23:23:21.978 HYPERVISOR: exec_cmd: nio create_udp udp-13ab028b-15e8-483f-9f94-3a1165aff518 10006 127.0.0.1 10007 
+Jan 09 23:23:21.999 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-13ab028b-15e8-483f-9f94-3a1165aff518 
+Jan 09 23:23:21.999 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 23:23:22.125 HYPERVISOR: exec_cmd: nio create_udp udp-d2ba5cb2-bf27-4fe0-b7bc-09deff42b811 10014 127.0.0.1 10015 
+Jan 09 23:23:22.127 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-d2ba5cb2-bf27-4fe0-b7bc-09deff42b811 
+Jan 09 23:23:22.127 HYPERVISOR: exec_cmd: vm get_status R1 

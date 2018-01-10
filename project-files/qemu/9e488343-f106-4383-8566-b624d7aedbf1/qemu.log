@@ -1,0 +1,4 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name Ubuntu-3 -m 500M -smp cpus=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/ennuikibun/GNS3/projects/Redes/project-files/qemu/9e488343-f106-4383-8566-b624d7aedbf1/hda_disk.qcow2,if=virtio,index=0,media=disk -uuid 9e488343-f106-4383-8566-b624d7aedbf1 -vnc 127.0.0.1:2 -monitor tcp:127.0.0.1:35861,server,nowait -net none -device virtio-net-pci,mac=00:74:68:db:f1:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10025,localaddr=127.0.0.1:10024 -vga virtio -nographic
+
+Execution log:
+qemu-system-x86_64: terminating on signal 15 from pid 3348
